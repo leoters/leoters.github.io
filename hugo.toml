@@ -2,3 +2,25 @@ baseURL = 'https://leoters.github.io'
 locale = 'en-us'
 title = 'Pedro Leote'
 theme = 'PaperMod'
+
+[params]
+  [params.profileMode]
+    enabled = true
+    title = "Pedro Leote"
+    subtitle = "Tech Artist | VFX Artist"
+    imageUrl = "images/profile.jpg"
+    imageTitle = "Pedro Leote"
+    imageWidth = 240
+    imageHeight = 240
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/posts"
+
+    [[params.profileMode.buttons]]
+      name = "Portfolio"
+      url = "/portfolio"
+
+    [[params.profileMode.socialIcons]]
+      name = "LinkedIn"
+      url = "https://www.linkedin.com/in/leoters/"
