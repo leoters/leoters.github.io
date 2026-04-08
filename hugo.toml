@@ -4,6 +4,7 @@ title = 'Pedro Leote'
 theme = 'PaperMod'
 
 [params]
+  customCSS = ["css/custom.css"]
   [params.profileMode]
     enabled = true
     title = "Pedro Leote"
@@ -20,7 +21,3 @@ theme = 'PaperMod'
     [[params.profileMode.buttons]]
       name = "Portfolio"
       url = "/portfolio"
-
-    [[params.profileMode.socialIcons]]
-      name = "LinkedIn"
-      url = "https://www.linkedin.com/in/leoters/"
