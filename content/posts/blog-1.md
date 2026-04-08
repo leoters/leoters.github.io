@@ -15,3 +15,7 @@ Bla bla bla.
 ### Fuck.
 
 Yah.
+
+Here's how you handle images:
+
+![ETIC logo](/images/etic-logo.png)
