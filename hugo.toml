@@ -1,0 +1,4 @@
+baseURL = 'https://leoters.github.io'
+locale = 'en-us'
+title = 'Pedro Leote'
+theme = 'PaperMod'
