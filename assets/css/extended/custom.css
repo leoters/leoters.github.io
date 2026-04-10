@@ -1,0 +1,50 @@
+/* Custom CSS for PaperMod theme color overrides */
+
+/* Light mode colors */
+:root {
+  --theme: rgb(231, 215, 193);        /* Main background */
+  --entry: rgb(194, 163, 145);        /* Entry/card background */
+  --primary: rgb(192, 67, 66);         /* Primary text (headers) */
+  --secondary: rgb(108, 108, 108);    /* Secondary text */
+  --tertiary: rgb(194, 163, 145);     /* Tertiary elements like Buttons */
+  --content: rgb(31, 31, 31);         /* Content text */
+  --code-bg: rgb(231, 215, 193);      /* Code/list backgrounds */
+  --border: rgb(231, 215, 193);       /* Borders */
+}
+
+/* Dark mode colors */
+:root[data-theme="dark"] {
+  --theme: rgb(65, 64, 66);           /* Main background */
+  --entry: rgb(46, 46, 51);           /* Entry/card background */
+  --primary: rgb(152, 132, 189);      /* Primary text (headers) */
+  --secondary: rgb(155, 156, 157);    /* Secondary text */
+  --tertiary: rgb(46, 46, 51);        /* Tertiary elements like Buttons */
+  --content: rgb(196, 196, 197);      /* Content text */
+  --border: rgb(51, 51, 51);          /* Borders */
+}
+
+/* Hide the default text and show only logo */
+.logo a {
+  font-size: 0;
+} 
+
+.logo a::before {
+  content: '';
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url('/images/logo-light.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Switch logo for dark mode */
+[data-theme="dark"] .logo a::before {
+  background-image: url('/images/logo-dark.svg');
+  content: '';
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -2,7 +2,7 @@
 date = '2026-04-08T18:50:56+01:00'
 draft = true
 title = 'Blog 1'
-ShowShareButtons = true
+weight = 1
 ShowReadingTime = true
 +++
 

@@ -4,7 +4,10 @@ title = 'Pedro Leote'
 theme = 'PaperMod'
 
 [params]
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/extended/custom.css"]
+  [params.label]
+    text = ""
+
   [params.profileMode]
     enabled = true
     title = "Pedro Leote"
@@ -21,3 +24,5 @@ theme = 'PaperMod'
     [[params.profileMode.buttons]]
       name = "Portfolio"
       url = "/portfolio"
+
+  
