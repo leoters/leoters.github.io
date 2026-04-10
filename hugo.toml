@@ -2,11 +2,17 @@ baseURL = 'https://leoters.github.io'
 locale = 'en-us'
 title = 'Pedro Leote'
 theme = 'PaperMod'
+sectionPagesMenu = 'main'
 
 [params]
   customCSS = ["css/extended/custom.css"]
+  
   [params.label]
     text = ""
+
+  [params.contact]
+    email = 'pedro_leote@eticalgarve.com'
+
 
   [params.profileMode]
     enabled = true
@@ -24,5 +30,6 @@ theme = 'PaperMod'
     [[params.profileMode.buttons]]
       name = "Portfolio"
       url = "/portfolio"
+
 
   
