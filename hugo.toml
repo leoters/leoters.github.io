@@ -13,6 +13,23 @@ sectionPagesMenu = 'main'
   [params.contact]
     email = 'pedro_leote@eticalgarve.com'
 
+  [[params.socialIcons]]
+    name = "itchio"
+    url = "https://leoters.itch.io/"
+
+  [[params.socialIcons]]
+    name = "Email"
+    url = "mailto:pedro_leote@eticalgarve.com"
+
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/leoters"
+    
+  [[params.socialIcons]]
+    name = "Bluesky"
+    url = "https://bsky.app/profile/leoters.bsky.social"
+
+  
 
   [params.profileMode]
     enabled = true
