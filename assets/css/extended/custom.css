@@ -36,6 +36,7 @@
   background-image: url('/images/logo-light.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  vertical-align: middle;
 }
 
 /* Switch logo for dark mode */
@@ -47,4 +48,5 @@
   height: 80px;
   background-size: cover;
   background-repeat: no-repeat;
+  vertical-align: middle;
 }

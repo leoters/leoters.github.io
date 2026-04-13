@@ -6,6 +6,8 @@ sectionPagesMenu = 'main'
 
 [params]
   customCSS = ["css/extended/custom.css"]
+  ShowShareButtons = true
+  ShareButtons = ["linkedin", "x"]
   
   [params.label]
     text = ""
@@ -29,7 +31,9 @@ sectionPagesMenu = 'main'
     name = "Bluesky"
     url = "https://bsky.app/profile/leoters.bsky.social"
 
-  
+  [[params.socialIcons]]
+    name = "Artstation"
+    url = "https://artstation.com/leoters"
 
   [params.profileMode]
     enabled = true
